@@ -1,4 +1,4 @@
-package com.example.webviewapp;
+package com.yousource.webviewapp;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.webviewapp", appContext.getPackageName());
+        assertEquals("com.yousource.webviewapp", appContext.getPackageName());
     }
 }

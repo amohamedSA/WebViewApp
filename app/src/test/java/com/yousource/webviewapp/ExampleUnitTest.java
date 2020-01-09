@@ -1,4 +1,4 @@
-package com.example.webviewapp;
+package com.yousource.webviewapp;
 
 import org.junit.Test;
 
