@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://dev-cta-appservice-enlabeler-san.azurewebsites.net");
+        webView.loadUrl("https://app.enlabeler.com/");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
